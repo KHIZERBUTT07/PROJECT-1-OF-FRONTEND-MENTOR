@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); } */
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-color:hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    height: 555px;
+    width: 375px;
+    background-color:hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+  .db{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    color:hsl(0, 0%, 100%); 
+  }
+  .flex{
+    color:hsl(0, 0%, 100%); ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .db:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%) ;
+    cursor: pointer;
+  }
+  .font{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .para-color{
+    color: hsl(0, 0%, 80%);
+  }
+  .green{
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-bottom: 20px;
+  }
+  .main{
+    font-size: 27px;
+    height: 21px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+  }
+  .img-sec{
+    background: url(assets/images/avatar-jessica.jpeg) center center/cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
