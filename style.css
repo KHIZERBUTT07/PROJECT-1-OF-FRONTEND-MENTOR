@@ -8,7 +8,7 @@
   .attribution a { color: hsl(228, 45%, 44%); } */
   body{
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     background-color:hsl(0, 0%, 8%);
     display: flex;
     justify-content: center;
