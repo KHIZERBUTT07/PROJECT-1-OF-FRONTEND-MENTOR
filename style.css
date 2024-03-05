@@ -46,6 +46,7 @@
     color:hsl(0, 0%, 8%) ;
     cursor: pointer;
   }
+  
   .font{
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -72,6 +73,11 @@
     font-style: normal;
 
   }
+  a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%); 
+   }
+
   .img-sec{
     background: url(assets/images/avatar-jessica.jpeg) center center/cover;
     height: 100px;
